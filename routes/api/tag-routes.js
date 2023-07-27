@@ -48,7 +48,6 @@ router.post('/', (req, res) => {
     console.log(err);
     res.status(400).json(err);
   });
-  res.status(200).json(tagData);
 });
 
 router.put('/:id', (req, res) => {
